@@ -3,7 +3,19 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledFooter = styled.div`
+    border-top: 1px solid grey;
+    padding-top: 35px;
+    text-align: center;
 
+    .item a{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+
+        &.visited {
+            color: white;
+        }
+    }
 `;
 
 const Footer = () => {
