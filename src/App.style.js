@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const StyledMain = styled.div`
     background-color: black;
     color: white;
-    padding: 0 150px;
 
     h2 {
         font-size: 26px;
@@ -12,6 +11,23 @@ const StyledMain = styled.div`
     }
     p {
         font-size: 18px;
+    }
+
+    .section1, .section2 {
+        display: flex;
+        .left {
+            margin-right: 25px;
+        }
+    }
+
+    .section.align-center {
+        text-align: center;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        padding-top: 65px;
     }
 `;
 
