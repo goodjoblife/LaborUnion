@@ -27,12 +27,12 @@ class App extends Component {
               <p>然而，民進黨政府不顧勞工的聲音，以優勢人數強渡法案。</p>
             </div>
             <div className="right">
-              <img src={tmpImg} />
+              <img src={tmpImg} alt="" />
             </div>
           </Section>
           <Section className="section2">
             <div className="left">
-              <img src={tmpImg}/>
+              <img src={tmpImg} alt="" />
             </div>
             <div className="right">
               <h2 className="title">只見彈性，不見保障的勞基法修正案</h2>
@@ -83,7 +83,7 @@ class App extends Component {
           <Section>
             <h2>合作單位</h2>
             <div>
-              <img />
+              <img alt="" />
               <span>台灣工人先鋒協會</span>
             </div>
           </Section>

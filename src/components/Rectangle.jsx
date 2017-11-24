@@ -17,7 +17,7 @@ const StyledRectangle = styled.div`
 const Rectangle = ({ iconImg, title, content, onClick }) => {
     return (
         <StyledRectangle className="align-center" onClick={onClick}>
-            <img className="rec-icon" src={iconImg} />
+            <img className="rec-icon" src={iconImg} alt="" />
             <h3 className="rec-title align-center">{title}</h3>
             <p className="rec-content align-center">{content}</p>
         </StyledRectangle>

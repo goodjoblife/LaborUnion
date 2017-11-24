@@ -37,8 +37,8 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="header-container">
-                <img src={logo} className="header-logo"></img>
-                <img src={logoName} className="header-logo-name"></img>
+                <img src={logo} className="header-logo" alt=""></img>
+                <img src={logoName} className="header-logo-name" alt=""></img>
                 <Button className="cta-button"> 馬上開始組工會 </Button>
             </div>
         </StyledHeader>
