@@ -4,7 +4,6 @@ import styled from 'styled-components';
 
 import Button from './Button';
 import logo from '../assets/logo.jpg';
-import logoName from '../assets/logo-name.png';
 
 import { MEDIA } from '../constants/style.constant';
 
