@@ -7,7 +7,6 @@ import bannerImg from '../assets/banner.jpg';
 const StyledBanner = styled.div`
     width: 100%;
     text-align: center;
-    padding: 80px 0;
     .banner-img {
         max-width: 100%;
     }

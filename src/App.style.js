@@ -40,6 +40,14 @@ const StyledMain = styled.div`
         margin: auto;
         padding-top: 65px;
     }
+
+    .red-text {
+        color: red;
+    }
+
+    .yellow-text {
+        color: #FCD406;
+    }
 `;
 
 export default StyledMain;
