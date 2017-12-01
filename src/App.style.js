@@ -22,6 +22,11 @@ const StyledMain = styled.div`
         letter-spacing: 1.2px;
         line-height: 1.5em;
     }
+    a {
+        &:hover {
+            color: #FCD406;
+        }
+    }
 
     .align-center {
         text-align: center;
