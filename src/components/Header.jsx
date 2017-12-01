@@ -3,11 +3,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Button from './Button';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.jpg';
 import logoName from '../assets/logo-name.png';
 
 const StyledHeader = styled.div`
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #FCD406;
     position: fixed;
     top: 0;
     width: 100%;
@@ -19,14 +19,11 @@ const StyledHeader = styled.div`
         margin: auto;
         .header-logo {
             padding: 10px 0;
-        }
-        .header-logo-name {
-            height: 40px;
-            padding: 10px 0 10px 20px;
+            height: 45px;
         }
         .cta-button {
-            margin-top: 15px;
-            padding: 5px 20px;
+            margin-top: 8px;
+            padding: 10px 20px;
             float: right;
         }
 
@@ -38,7 +35,6 @@ const Header = () => {
         <StyledHeader>
             <div className="header-container">
                 <img src={logo} className="header-logo"></img>
-                <img src={logoName} className="header-logo-name"></img>
                 <Button className="cta-button"> 馬上開始組工會 </Button>
             </div>
         </StyledHeader>

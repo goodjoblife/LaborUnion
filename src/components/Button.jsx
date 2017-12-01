@@ -3,16 +3,17 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledButton = styled.button`
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #FCD406;
+    color: #FCD406;
     background-color: black;
     border-radius: 0;
     padding: 10px 25px;
     font-size: 18px;
 
     &:hover {
-        border-color: #FCD406;
-        color: #FCD406;
+        background-color: #FCD406;
+        border-color: black;
+        color: black;
         cursor: pointer;
     }
 `;
