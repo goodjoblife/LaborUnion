@@ -1,0 +1,29 @@
+version: 2
+jobs:
+    build:
+        docker:
+            - image: node
+        working_directory: ~/app
+        steps:
+            - checkout
+            - run:
+                name: Install Dependencies
+                command: yarn install
+            - run:
+                name: Build
+                command: npm run build
+            - add_ssh_keys
+            - deploy:
+                name: Deploy to branch
+                command: |
+                    if [ "${CIRCLE_PROJECT_USERNAME}" == "goodjoblife" ]; then
+                        ./.circleci/deploy.sh
+                    fi
+workflows:
+    version: 2
+    build_and_deploy:
+        jobs:
+            - build:
+                filters:
+                    branches:
+                        only: master

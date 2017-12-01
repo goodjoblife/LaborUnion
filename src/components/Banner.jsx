@@ -14,7 +14,7 @@ const StyledBanner = styled.div`
 
 const Banner = () => (
     <StyledBanner className="banner">
-        <img className="banner-img" src={bannerImg} />
+        <img className="banner-img" src={bannerImg} alt="" />
     </StyledBanner>
 );
 

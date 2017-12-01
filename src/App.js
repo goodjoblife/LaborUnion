@@ -85,7 +85,7 @@ class App extends Component {
           <Section className="align-center">
             <h2>合作單位</h2>
             <div>
-              <img src={pioneerLaborLogo} className="org-logo"/>
+              <img src={pioneerLaborLogo} className="org-logo" alt="台灣工人先鋒協會"/>
               <div>台灣工人先鋒協會</div>
             </div>
           </Section>
