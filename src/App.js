@@ -4,12 +4,14 @@ import './App.css';
 import { Header, Section, Button, Rectangle, Footer, Banner } from './components';
 import StyledMain from './App.style';
 
-import docImg from './assets/doc.png';
-import interviewImg from './assets/interview.png';
-import manDancingImg from './assets/man-dancing.png';
-import publicSpeakerImg from './assets/public-speaker.png';
-import magImg from './assets/magnifier.png';
-import teleImg from './assets/telephone.png';
+/* eslint-disable import/no-webpack-loader-syntax */
+import docSVG from '-!svg-react-loader!./assets/doc.svg';
+import interviewSVG from '-!svg-react-loader!./assets/interview.svg';
+import manDancingSVG from '-!svg-react-loader!./assets/man-dancing.svg';
+import publicSpeakerSVG from '-!svg-react-loader!./assets/public-speaker.svg';
+import magSVG from '-!svg-react-loader!./assets/magnifier.svg';
+import teleSVG from '-!svg-react-loader!./assets/telephone.svg';
+/* eslint-enable import/no-webpack-loader-syntax */
 import pioneerLaborLogo from './assets/pioneer-labor-logo.jpg';
 
 class App extends Component {
@@ -58,22 +60,22 @@ class App extends Component {
             <h2 className="align-center">籌組流程</h2>
             <div className="align-center flex flow-container">
               <Rectangle
-                iconImg={docImg}
+                SVGIcon={docSVG}
                 title='1. 線上連署'
                 content='線上填寫表單，開始進行連署'
               />
               <Rectangle
-                iconImg={manDancingImg}
+                SVGIcon={manDancingSVG}
                 title='2. 人數達標'
                 content='當人數達標，將開始連絡彼此進行籌備。必要時，先進行身份驗證。'
               />
               <Rectangle
-                iconImg={interviewImg}
+                SVGIcon={interviewSVG}
                 title='3. 召開籌備會'
                 content='召開工會籌備會，制定章程'
               />
               <Rectangle
-                iconImg={publicSpeakerImg}
+                SVGIcon={publicSpeakerSVG}
                 title='4. 工會成立大會'
                 content='召開工會成立大會，檢送必要文件至主管機關，正式成立工會。'
               />
@@ -93,16 +95,16 @@ class App extends Component {
             <h2 className="align-center">除了組工會外，我們還可以...</h2>
             <div className="align-center flex">
               <Rectangle
-                iconImg={docImg}
+                SVGIcon={docSVG}
                 title='貢獻你的工時資料'
                 content='讓台灣其他人知道，你的工時有多長？'
               />
               <Rectangle
-                iconImg={magImg}
+                SVGIcon={magSVG}
                 title='查詢哪些公司工時很長'
               />
               <Rectangle
-                iconImg={teleImg}
+                SVGIcon={teleSVG}
                 title='打電話給你選區的立委'
                 content='說明我們要高保障！'
               />
