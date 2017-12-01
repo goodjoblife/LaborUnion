@@ -7,7 +7,15 @@ const StyledRectangle = styled.div`
     box-sizing: border-box;
     width: 250px;
     height: 250px;
-    padding-top: 30px;
+    padding: 30px 20px;
+
+    &:hover {
+        background-color: #FCD406;
+        border-color: black;
+        color: black;
+        cursor: pointer;
+    }
+
     .rec-icon {
         width: 50px;
         height: 50px;
