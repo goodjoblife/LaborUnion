@@ -26,6 +26,8 @@ const StyledMain = styled.div`
 
     .flex {
         display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .section1, .section2 {
