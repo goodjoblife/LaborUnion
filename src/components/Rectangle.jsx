@@ -8,6 +8,7 @@ const StyledRectangle = styled.div`
     width: 250px;
     height: 250px;
     padding: 30px 20px;
+    margin: 10px;
 
     &:hover {
         background-color: #FCD406;

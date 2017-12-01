@@ -9,7 +9,7 @@ const StyledSection = styled.div`
 
 const Section = ({ children, className }) => {
     return (
-        <StyledSection className={className}>{children}</StyledSection>
+        <StyledSection className={`${className} section`}>{children}</StyledSection>
     );
 }
 
