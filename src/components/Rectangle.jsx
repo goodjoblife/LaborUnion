@@ -13,6 +13,9 @@ const StyledRectangle = styled.div`
     svg path {
         fill: #FCD406;
     }
+    p {
+        color: white;
+    }
     transition: background-color 0.75s ease;
     transition: color 0.25s ease;
 
@@ -23,6 +26,9 @@ const StyledRectangle = styled.div`
         cursor: pointer;
         svg path {
             fill: black;
+        }
+        p {
+            color: black;
         }
     }
 
