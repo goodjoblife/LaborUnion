@@ -10,8 +10,7 @@ import manDancingImg from './assets/man-dancing.png';
 import publicSpeakerImg from './assets/public-speaker.png';
 import magImg from './assets/magnifier.png';
 import teleImg from './assets/telephone.png';
-
-import tmpImg from './assets/tmp.png';
+import pioneerLaborLogo from './assets/pioneer-labor-logo.jpg';
 
 class App extends Component {
   render() {
@@ -86,8 +85,8 @@ class App extends Component {
           <Section className="align-center">
             <h2>合作單位</h2>
             <div>
-              <img />
-              <span>台灣工人先鋒協會</span>
+              <img src={pioneerLaborLogo} className="org-logo"/>
+              <div>台灣工人先鋒協會</div>
             </div>
           </Section>
           <Section>

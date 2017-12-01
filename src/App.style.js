@@ -124,6 +124,10 @@ const StyledMain = styled.div`
     .yellow-text {
         color: #FCD406;
     }
+
+    .org-logo {
+        width: 180px;
+    }
 `;
 
 export default StyledMain;
