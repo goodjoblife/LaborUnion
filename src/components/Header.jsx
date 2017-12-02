@@ -71,7 +71,7 @@ const Header = () => {
     return (
         <StyledHeader>
             <div className="header-container">
-                <a href="/"><img src={logo} className="header-logo" alt="GoodJob 全民組工會"></img></a>
+                <a href={`${process.env.PUBLIC_URL}/`}><img src={logo} className="header-logo" alt="GoodJob 全民組工會"></img></a>
                 <Button className="cta-button"> 馬上開始組工會 </Button>
             </div>
         </StyledHeader>
