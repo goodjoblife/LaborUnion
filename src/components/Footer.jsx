@@ -34,7 +34,7 @@ const Footer = () => {
     return (
         <StyledFooter>
             <div className="logo">
-                <a href="/">
+                <a href={`${process.env.PUBLIC_URL}/`}>
                     <img src={logo} alt="GoodJob 全民組工會" className="logo"/>
                 </a>
             </div >
