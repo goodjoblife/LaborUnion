@@ -126,6 +126,19 @@ const StyledMain = styled.div`
     .marg-t-40 {
         margin-top: 40px;
     }
+
+    .partner-contact {
+        margin: 40px auto 0 auto;
+        max-width: 500px;
+        color: grey;
+        a {
+            color: grey;
+            &:hover {
+                color: #FCD406;
+            }
+        }
+    }
+
 `;
 
 export default StyledMain;
