@@ -72,7 +72,7 @@ const Header = () => {
         <StyledHeader>
             <div className="header-container">
                 <a href="/"><img src={logo} className="header-logo" alt="GoodJob 全民組工會"></img></a>
-                <Button className="cta-button"> 馬上開始組工會 </Button>
+                <Button href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2" alt="馬上開始組工會" className="cta-button"> 馬上開始組工會 </Button>
             </div>
         </StyledHeader>
     );

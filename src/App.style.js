@@ -122,6 +122,10 @@ const StyledMain = styled.div`
         font-size: 14px;
         color: grey;
     }
+
+    .marg-t-40 {
+        margin-top: 40px;
+    }
 `;
 
 export default StyledMain;

@@ -55,8 +55,8 @@ class App extends Component {
               </ul>
             </p>
             <p>不論你是想要組工會，還是想加入真正能捍衛勞工權益的工會，現在就填寫連署書！<br />一旦接近工會組織門檻（同企業、同產業或同職業勞工 30 人），我們將協助你連結經驗豐富的工會及勞工團體，協助你籌組工會！</p>
-            <div className="align-center">
-              <Button>馬上開始組工會</Button>
+            <div className="align-center marg-t-40">
+              <Button href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2" alt="馬上開始組工會">馬上開始組工會</Button>
             </div>
           </Section>
           <Section className="section3">
