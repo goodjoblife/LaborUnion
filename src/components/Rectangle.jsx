@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledRectangle = styled.div`
+const StyledRectangle = styled.a`
     border: 1px solid #FCD406;
     box-sizing: border-box;
     width: 250px;
@@ -10,6 +10,8 @@ const StyledRectangle = styled.div`
     padding: 30px 20px;
     margin: 10px;
     color: #FCD406;
+    text-decoration: none;
+
     svg path {
         fill: #FCD406;
     }
@@ -23,7 +25,7 @@ const StyledRectangle = styled.div`
         background-color: #FCD406;
         border-color: black;
         color: black;
-        cursor: pointer;
+        cursor: ${props => props.href ? 'pointer': 'initial' };
         svg path {
             fill: black;
         }
@@ -38,9 +40,14 @@ const StyledRectangle = styled.div`
     }
 `;
 
-const Rectangle = ({ SVGIcon, title, content, onClick }) => {
+const Rectangle = ({ SVGIcon, title, content, href }) => {
     return (
-        <StyledRectangle className="align-center" onClick={onClick}>
+        <StyledRectangle
+            className="align-center"
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+        >
             <SVGIcon className="rec-icon" alt="" />
             <h3 className="rec-title align-center">{title}</h3>
             <p className="rec-content align-center">{content}</p>
