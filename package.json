@@ -16,5 +16,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://goodjoblife.github.io/LaborUnion"
+  "homepage": "https://labor-union.goodjob.life"
 }
