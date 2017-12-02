@@ -1,5 +1,29 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family: "PingFang TC", "Helvetica Neue", Helvetica, Arial, "微軟正黑體", "Microsoft JhengHei", sans-serif;
+}
+
+h2, h3 {
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 26px;
+  color: #FCD406;
+}
+p {
+  font-size: 18px;
+}
+p, span, button, a {
+  font-weight: 300;
+  letter-spacing: 1.2px;
+  line-height: 1.5em;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #FCD406;
 }
