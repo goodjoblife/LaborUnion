@@ -27,3 +27,8 @@ a {
 a:hover {
   color: #FCD406;
 }
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(left, black, #FCD406, black);
+}

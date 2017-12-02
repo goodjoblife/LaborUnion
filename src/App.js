@@ -33,6 +33,7 @@ class App extends Component {
               <div className="photo-credit"> 2017.11.17 攝影/張榮隆 </div>
             </div>
           </Section>
+          <hr />
           <Section className="section2">
             <div className="right">
               <h2 className="title">只見彈性，不見保障的勞基法修正案</h2>
@@ -46,6 +47,7 @@ class App extends Component {
             <div className="left">
             </div>
           </Section>
+          <hr />
           <Section className="tight-section">
             <h2 className="align-center">面對勞基法鬆綁，我們可以採取甚麼行動？</h2>
             <p>除了聲援抗議活動、鍵盤分享抗議資訊外，其實我們還可以做得更多——我們可以<span className="red-text">組織工會</span>！</p>
@@ -62,6 +64,7 @@ class App extends Component {
               <Button href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2" alt="馬上開始組工會">馬上開始組工會</Button>
             </div>
           </Section>
+          <hr />
           <Section className="section3">
             <h2 className="align-center">籌組流程</h2>
             <div className="align-center flex flow-container">
@@ -93,6 +96,7 @@ class App extends Component {
               </p>
             </div>
           </Section>
+          <hr />
           <Section className="align-center">
             <h2>合作單位</h2>
             <div>
@@ -106,6 +110,7 @@ class App extends Component {
               <BlankLink href="mailto:findyourgoodjob@gmail.com">電子信箱</BlankLink>聯絡我們。
             </div>
           </Section>
+          <hr />
           <Section>
             <h2 className="align-center">除了組工會外，我們還可以...</h2>
             <div className="align-center flex">
