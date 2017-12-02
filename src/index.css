@@ -30,5 +30,5 @@ a:hover {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(left, black, #FCD406, black);
+  background-image: linear-gradient(to left, black, #FCD406, black);
 }
