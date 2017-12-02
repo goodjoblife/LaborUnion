@@ -6,27 +6,6 @@ import { MEDIA } from './constants/style.constant';
 const StyledMain = styled.div`
     background-color: black;
     color: white;
-    h2, h3 {
-        font-weight: 400;
-        letter-spacing: 2px;
-    }
-    h2 {
-        font-size: 26px;
-        color: #FCD406;
-    }
-    p {
-        font-size: 18px;
-    }
-    p, span, button, a {
-        font-weight: 300;
-        letter-spacing: 1.2px;
-        line-height: 1.5em;
-    }
-    a {
-        &:hover {
-            color: #FCD406;
-        }
-    }
 
     .align-center {
         text-align: center;
