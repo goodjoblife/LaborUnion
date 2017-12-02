@@ -46,6 +46,8 @@ const StyledMain = styled.div`
 
     .section1 {
         position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
         .left {
             margin-right: 420px;
             @media (max-width: ${MEDIA.MD_MAX}px) {
@@ -56,7 +58,7 @@ const StyledMain = styled.div`
             position: absolute;
             width: 400px;
             right: 0;
-            top: 60px;
+            top: 30px;
             @media (max-width: ${MEDIA.MD_MAX}px) {
                 position: static;
                 width: 100%;
