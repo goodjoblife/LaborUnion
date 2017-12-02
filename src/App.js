@@ -13,6 +13,7 @@ import magSVG from '-!svg-react-loader!./assets/magnifier.svg';
 import teleSVG from '-!svg-react-loader!./assets/telephone.svg';
 /* eslint-enable import/no-webpack-loader-syntax */
 import pioneerLaborLogo from './assets/pioneer-labor-logo.jpg';
+import img1 from './assets/img1.jpg';
 
 class App extends Component {
   render() {
@@ -28,6 +29,8 @@ class App extends Component {
               <p>然而，民進黨政府仍欲以優勢人數強渡法案。</p>
             </div>
             <div className="right">
+              <img src={img1} alt="2017.11.17 攝影/張榮隆" className="img1" />
+              <div className="photo-credit"> 2017.11.17 攝影/張榮隆 </div>
             </div>
           </Section>
           <Section className="section2">

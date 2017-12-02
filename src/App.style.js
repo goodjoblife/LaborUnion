@@ -47,22 +47,26 @@ const StyledMain = styled.div`
     .section1 {
         position: relative;
         .left {
-            margin-right: 375px;
+            margin-right: 420px;
             @media (max-width: ${MEDIA.MD_MAX}px) {
                 margin-right: 0;
             }
         }
         .right {
-            border: 1px solid white;
             position: absolute;
-            width: 350px;
-            height: 275px;
+            width: 400px;
             right: 0;
-            top: 40px;
+            top: 60px;
             @media (max-width: ${MEDIA.MD_MAX}px) {
                 position: static;
                 width: 100%;
                 height: auto;
+            }
+            .img1 {
+                width: 400px;
+                @media (max-width: ${MEDIA.MD_MAX}px) {
+                    width: 100%;
+                }
             }
         }
     }
@@ -111,6 +115,12 @@ const StyledMain = styled.div`
 
     .org-logo {
         width: 180px;
+    }
+
+    .photo-credit {
+        text-align: right;
+        font-size: 14px;
+        color: grey;
     }
 `;
 
