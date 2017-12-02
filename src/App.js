@@ -71,23 +71,23 @@ class App extends Component {
               <Rectangle
                 SVGIcon={docSVG}
                 title='1. 線上連署'
-                content='線上填寫表單，開始進行連署'
+                content='線上填寫表單，開始進行連署。'
                 href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2"
               />
               <Rectangle
                 SVGIcon={manDancingSVG}
                 title='2. 人數達標'
-                content='當人數達標，將開始連絡彼此進行籌備。必要時，先進行身份驗證。'
+                content='當人數達標，將開始連絡彼此進行籌備。'
               />
               <Rectangle
                 SVGIcon={interviewSVG}
                 title='3. 召開籌備會'
-                content='召開工會籌備會，制定章程'
+                content='召開工會籌備會，制定章程，選出工會幹部。'
               />
               <Rectangle
                 SVGIcon={publicSpeakerSVG}
                 title='4. 工會成立大會'
-                content='召開工會成立大會，檢送必要文件至主管機關，正式成立工會。'
+                content='召開工會成立大會、檢送必要文件至主管機關，正式成立工會。'
               />
             </div>
             <div className="tight-section">
