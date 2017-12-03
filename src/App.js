@@ -34,18 +34,14 @@ class App extends Component {
             </div>
           </Section>
           <hr />
-          <Section className="section2">
-            <div className="right">
-              <h2 className="title">只見彈性，不見保障的勞基法修正案</h2>
-              <p>此次勞基法修正案，美其名為跟隨國際潮流，朝「高彈性、高保障」的方向修法。然而，草案內容只見「高彈性」，未見「高保障」。</p>
-              <p>政府欲將勞動條件交給工會、勞資會議協商，卻忽略
-                <BlankLink href="https://goo.gl/LSbMRn">台灣工會組織率大約僅有 7%</BlankLink>、
-                <BlankLink href="https://www.ilosh.gov.tw/menu/1169/1319/11262/">許多企業未有勞資會議</BlankLink>或勞資會議徒具形式的事實。
-              </p>
-              <p>我們沒有看到政府有任何動作要強化工會功能、協助勞工組織工會、落實勞資會議。試問政府，「高保障」到底在哪裡？</p>
-            </div>
-            <div className="left">
-            </div>
+          <Section className="section2 tight-section">
+            <h2 className="title">只見彈性，不見保障的勞基法修正案</h2>
+            <p>此次勞基法修正案，美其名為跟隨國際潮流，朝「高彈性、高保障」的方向修法。然而，草案內容只見「高彈性」，未見「高保障」。</p>
+            <p>政府欲將勞動條件交給工會、勞資會議協商，卻忽略
+              <BlankLink href="https://goo.gl/LSbMRn">台灣工會組織率大約僅有 7%</BlankLink>、
+              <BlankLink href="https://www.ilosh.gov.tw/menu/1169/1319/11262/">許多企業未有勞資會議</BlankLink>或勞資會議徒具形式的事實。
+            </p>
+            <p>我們沒有看到政府有任何動作要強化工會功能、協助勞工組織工會、落實勞資會議。試問政府，「高保障」到底在哪裡？</p>
           </Section>
           <hr />
           <Section className="tight-section">

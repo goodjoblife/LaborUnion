@@ -73,29 +73,6 @@ const StyledMain = styled.div`
         }
     }
 
-    .section2 {
-        position: relative;
-        .right {
-            margin-left: 375px;
-            @media (max-width: ${MEDIA.MD_MAX}px) {
-                margin-left: 0;
-            }
-        }
-        .left {
-            border: 1px solid white;
-            position: absolute;
-            width: 350px;
-            height: 275px;
-            left: 0;
-            top: 60px;
-            @media (max-width: ${MEDIA.MD_MAX}px) {
-                position: static;
-                width: 100%;
-                height: auto;
-            }
-        }
-    }
-
     .tight-section {
         max-width: 800px;
         margin: auto;
