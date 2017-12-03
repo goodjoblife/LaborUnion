@@ -1,6 +1,7 @@
 
 import React from 'react';
 import styled from 'styled-components';
+import BlankLink from './BlankLink';
 import logo from '../assets/logo.jpg';
 import goodjobLogo from '../assets/goodjob-and-name.png';
 
@@ -14,8 +15,11 @@ const StyledFooter = styled.div`
         cursor: pointer;
         text-decoration: none;
 
-        &.visited {
+        &:visited {
             color: white;
+        }
+        &:hover {
+            color: #FCD406;
         }
     }
     .logo {
@@ -44,7 +48,10 @@ const Footer = () => {
                     <img src={goodjobLogo} alt="GoodJob 好工作評論網" className="goodjob-and-logo"/>
                 </a>
             </div>
-            <div className="item"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/goodjob.life/"> Facebook 臉書專頁 </a></div>
+            <div className="item">
+                <BlankLink href="https://www.facebook.com/goodjob.life/"> Facebook 臉書專頁 </BlankLink> /
+                <BlankLink href="https://github.com/goodjoblife/LaborUnion"> Github Repo </BlankLink>
+            </div>
         </StyledFooter>
     );
 };

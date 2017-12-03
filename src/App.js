@@ -117,7 +117,8 @@ class App extends Component {
             </div>
             <div className="partner-contact"> 若您有組織、經營工會的經驗，或有勞動領域之專業，也想為台灣的勞工貢獻一份心力，請用
               <BlankLink href="https://www.facebook.com/goodjob.life">臉書粉專</BlankLink>或
-              <BlankLink href="mailto:findyourgoodjob@gmail.com">電子信箱</BlankLink>聯絡我們。
+              <BlankLink href="mailto:findyourgoodjob@gmail.com">電子信箱</BlankLink>聯絡我們。<br />
+              若您是網站工程師或設計師，也想參與我們的專案，請拜訪我們的 <BlankLink href="https://github.com/goodjoblife/LaborUnion">Github Repo</BlankLink>。
             </div>
           </Section>
           <hr />
