@@ -7,7 +7,7 @@ import StyledMain from './App.style';
 /* eslint-disable import/no-webpack-loader-syntax */
 import docSVG from '-!svg-react-loader!./assets/doc.svg';
 import interviewSVG from '-!svg-react-loader!./assets/interview.svg';
-import manDancingSVG from '-!svg-react-loader!./assets/man-dancing.svg';
+import dialogSVG from '-!svg-react-loader!./assets/dialog.svg';
 import publicSpeakerSVG from '-!svg-react-loader!./assets/public-speaker.svg';
 import magSVG from '-!svg-react-loader!./assets/magnifier.svg';
 import teleSVG from '-!svg-react-loader!./assets/telephone.svg';
@@ -54,12 +54,16 @@ class App extends Component {
             <p>有了工會，我們才能有更強的談判力量，拒絕雇主要求連續工作十二天、拒絕排班只間隔八小時。才有機會在公聽會上發表意見，讓勞工的聲音被聽見。我們才有足夠的動員能力，上街表達意見，或是發動罷工。</p>
             <p>
               <ul>
-                <li>平常不敢問身邊的同事，要不要一起組工會？ <span className="yellow-text">別擔心，這裡完全匿名！</span></li>
+                <li>不知道工會籌組的細節？ <span className="yellow-text">別擔心，工會及勞工團體會提供諮詢！</span></li>
+                <li>平常不敢問身邊的同事，要不要一起組工會？ <span className="yellow-text">請放心，這裡完全匿名！</span></li>
                 <li>身邊找不到想一起組工會的夥伴？ <span className="yellow-text">沒關係，網路上找的到！</span></li>
-                <li>不知道工會籌組的細節？ <span className="yellow-text">沒問題，勞工團體及工會會幫忙！</span></li>
               </ul>
             </p>
-            <p>不論你是想要組工會，還是想加入真正能捍衛勞工權益的工會，現在就<span className="red-text">填寫表單！</span><br />一旦接近工會組織門檻（同企業、同產業或同職業勞工 30 人），我們將協助你連結經驗豐富的工會及勞工團體，協助你籌組工會！<br />若已有適合的工會可以加入，我們也將提供資訊給你！</p>
+            <p>不論你是想要組工會，還是想加入真正能捍衛勞工權益的工會，現在就
+              <BlankLink href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2" className="red-text">填寫表單</BlankLink>！<br />
+              我們將視您的情況，協助你連結其他也想籌組工會的夥伴，或連結經驗豐富的工會及勞工團體做諮詢，協助你籌組工會！<br />
+              或者，直接提供您適合的工會資訊，讓您選擇是否直接加入現有工會！
+            </p>
             <div className="align-center marg-t-40">
               <Button href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2" alt="馬上開始組工會">馬上開始組工會</Button>
             </div>
@@ -70,14 +74,14 @@ class App extends Component {
             <div className="align-center flex flow-container">
               <Rectangle
                 SVGIcon={docSVG}
-                title='1. 線上連署'
-                content='線上填寫表單，開始進行連署。'
+                title='1. 填寫表單'
+                content='我們將根據你的情況，提供相關資訊，或協助你連結其他勞工。'
                 href="https://goo.gl/forms/eZIWeCtAFCV7aR7G2"
               />
               <Rectangle
-                SVGIcon={manDancingSVG}
-                title='2. 人數達標'
-                content='當人數達標，將開始連絡彼此進行籌備。'
+                SVGIcon={dialogSVG}
+                title='2. 進行諮詢'
+                content='由勞工團體及工會定期提供諮詢服務，協助你瞭解工會籌組流程。'
               />
               <Rectangle
                 SVGIcon={interviewSVG}
@@ -91,7 +95,13 @@ class App extends Component {
               />
             </div>
             <div className="tight-section">
-              <p>從第二個步驟起，將由台灣工人先鋒協會協助我們組織工會。台灣工人先鋒協會是由勞動九五聯盟、醫師勞動條件改革小組、台大工會、政大學生勞動權益促進會等組織的部分資深成員所組織的勞工團體，曾協助百貨業專櫃人員組織
+              <p>從第二個步驟起，將由
+                <BlankLink href="http://pioneerlabor.blogspot.tw/">台灣工人先鋒協會</BlankLink>定期提供組織工會的諮詢服務。<br />
+                台灣工人先鋒協會是由
+                <BlankLink href="https://www.facebook.com/youthlaborunion95/">勞動九五聯盟</BlankLink>、
+                <BlankLink href="https://www.facebook.com/MEDLabor/">醫師勞動條件改革小組</BlankLink>、
+                <BlankLink href="https://www.facebook.com/ntu.laborunion/">台大工會</BlankLink>、
+                <BlankLink href="https://www.facebook.com/nccuslra/">政大學生勞動權益促進會</BlankLink>等組織的部分資深成員所組織的勞工團體，曾協助百貨業專櫃人員組織
                 <BlankLink href="https://www.facebook.com/SalesWorker/">台灣專櫃暨銷售人員產業工會</BlankLink>。
               </p>
             </div>
@@ -105,7 +115,7 @@ class App extends Component {
               </BlankLink>
               <div><BlankLink href="http://pioneerlabor.blogspot.tw/">台灣工人先鋒協會</BlankLink></div>
             </div>
-            <div className="partner-contact"> 若您有組織、經營工會的經驗，或有勞動領域之專業，想為台灣的勞工貢獻一份心力，敬請用
+            <div className="partner-contact"> 若您有組織、經營工會的經驗，或有勞動領域之專業，也想為台灣的勞工貢獻一份心力，請用
               <BlankLink href="https://www.facebook.com/goodjob.life">臉書粉專</BlankLink>或
               <BlankLink href="mailto:findyourgoodjob@gmail.com">電子信箱</BlankLink>聯絡我們。
             </div>
