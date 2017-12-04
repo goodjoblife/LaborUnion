@@ -46,13 +46,14 @@ class App extends Component {
           <hr />
           <Section className="tight-section">
             <h2 className="align-center">面對勞基法鬆綁，我們可以採取甚麼行動？</h2>
-            <p>除了聲援抗議活動、鍵盤分享抗議資訊外，其實我們還可以做得更多——我們可以<span className="red-text">組織工會</span>！</p>
+            <p>除了聲援抗議活動、鍵盤分享抗議資訊外，其實我們還可以做得更多——我們可以<span className="red-text">組織工會</span> 或 <span className="red-text">加入工會</span>！</p>
             <p>有了工會，我們才能有更強的談判力量，拒絕雇主要求連續工作十二天、拒絕排班只間隔八小時。才有機會在公聽會上發表意見，讓勞工的聲音被聽見。我們才有足夠的動員能力，上街表達意見，或是發動罷工。</p>
             <p>
               <ul>
-                <li>不知道工會籌組的細節？ <span className="yellow-text">別擔心，工會及勞工團體會提供諮詢！</span></li>
+                <li>想加入工會，卻不知道有什麼適合的工會？ <span className="yellow-text"> 別擔心，我們將提供資訊給你</span></li>
                 <li>平常不敢問身邊的同事，要不要一起組工會？ <span className="yellow-text">請放心，這裡完全匿名！</span></li>
-                <li>身邊找不到想一起組工會的夥伴？ <span className="yellow-text">沒關係，網路上找的到！</span></li>
+                <li>身邊找不到想一起組工會的夥伴？ <span className="yellow-text">沒關係，網路上也許找的到！</span></li>
+                <li>已經有夥伴要一起組工會，卻不清楚工會籌組的細節？ <span className="yellow-text">沒問題，工會及勞工團體會提供諮詢！</span></li>
               </ul>
             </p>
             <p>不論你是想要組工會，還是想加入真正能捍衛勞工權益的工會，現在就
@@ -66,7 +67,7 @@ class App extends Component {
           </Section>
           <hr />
           <Section className="section3">
-            <h2 className="align-center">籌組流程</h2>
+            <h2 className="align-center">工會籌組流程</h2>
             <div className="align-center flex flow-container">
               <Rectangle
                 SVGIcon={docSVG}
@@ -97,8 +98,7 @@ class App extends Component {
                 <BlankLink href="https://www.facebook.com/youthlaborunion95/">勞動九五聯盟</BlankLink>、
                 <BlankLink href="https://www.facebook.com/MEDLabor/">醫師勞動條件改革小組</BlankLink>、
                 <BlankLink href="https://www.facebook.com/ntu.laborunion/">台大工會</BlankLink>、
-                <BlankLink href="https://www.facebook.com/nccuslra/">政大學生勞動權益促進會</BlankLink>等組織的部分資深成員所組織的勞工團體，曾協助百貨業專櫃人員組織
-                <BlankLink href="https://www.facebook.com/SalesWorker/">台灣專櫃暨銷售人員產業工會</BlankLink>。
+                <BlankLink href="https://www.facebook.com/nccuslra/">政大學生勞動權益促進會</BlankLink>等組織的部分資深成員所組織的勞工團體，致力於提供勞工與工作相關的法律諮詢，以及協助處理勞資爭議和組織工會；此外，也進行許多勞動、社會政策的研究、倡議。
               </p>
             </div>
           </Section>
